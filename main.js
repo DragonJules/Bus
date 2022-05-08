@@ -19,5 +19,5 @@ function getUserPosition() {
 
 function automode(crd) {
     window.location.href = "./geomode.html"
-    alert(`Latitude : ${crd.latitude} Longitude : ${crd.longitude} La précision est de ${crd.accuracy} mètres.`)
+    alert(`${crd.latitude}, ${crd.longitude} La précision est de ${crd.accuracy} mètres.`)
 }
