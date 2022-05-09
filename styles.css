@@ -28,36 +28,36 @@ body{
     width: fit-content;
 }
 
-.top{
+.line{
     font-size: 140%;
     display: flex;
     justify-content: center;
 }
 
-.bottom{
+.baseline{
     font-size: 120%;
     display: flex;
     justify-content: center;
 }
 
-.accept{
+.geoloc{
     background-color: #1F3B56;
     padding: 10px;
     margin: 10px;
     width: auto;
 }
 
-.deny{
+.noloc{
     background-color: #1F3B56;
     padding: 10px;
     margin: 10px;
 }
 
-.accept:hover{
+.geoloc:hover{
     cursor: pointer;
     background-color: #1f2e56;
 }
-.deny:hover{
+.noloc:hover{
     cursor: pointer;
     background-color: #1f2e56;
 }
