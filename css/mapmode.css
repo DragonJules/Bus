@@ -1,0 +1,75 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+body {
+  background-color: #2c2c2c;
+}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.svg-content {
+  padding: 10px;
+}
+
+.line-1 {
+  fill: #ffe901;
+}
+
+.line-2 {
+  fill: #00aaeb;
+}
+
+.line-3 {
+  fill: #ef3d24;
+}
+
+.line-4 {
+  fill: #664d98;
+}
+
+.line-5 {
+  fill: #00a555;
+}
+
+.line-6 {
+  fill: #f47a21;
+}
+
+.line-arc-express {
+  fill: #005590;
+}
+
+.line-hm-navette {
+  fill: #a68253;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #2c2c2c;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(170, 170, 170);
+  border-radius: 30px;
+}
+
+/*# sourceMappingURL=mapmode.css.map */

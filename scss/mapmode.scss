@@ -1,0 +1,88 @@
+@import "./_variables";
+@import "./_mixins";
+@import "./placeholders";
+
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+// overflow: auto;
+// white-space: nowrap;
+
+
+body {
+    background-color: $backgroud-clr;
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+
+svg {
+    width:  auto;
+    height: auto;
+}
+
+.svg-container{
+    height: 100%;
+
+}
+
+.svg-content{
+    padding: 10px;
+
+}
+
+
+.line-1 {
+    fill: $clr-line-1;
+}
+
+.line-2 {
+    fill: $clr-line-2;
+}
+
+.line-3 {
+    fill: $clr-line-3;
+}
+
+.line-4 {
+    fill: $clr-line-4;
+}
+
+.line-5 {
+    fill: $clr-line-5;
+}
+
+.line-6 {
+    fill: $clr-line-6;
+}
+
+.line-arc-express {
+    fill: $clr-line-arc-express;
+}
+
+.line-hm-navette {
+    fill: $clr-line-hm-navette;
+}
+
+
+body::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+
+body::-webkit-scrollbar-track {
+    background: $backgroud-clr;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(170, 170, 170);
+    border-radius: 30px;
+}
+

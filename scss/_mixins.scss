@@ -1,0 +1,13 @@
+@mixin Hover($clr) {
+    &:hover ~ & {
+        fill: $clr;
+    }
+}
+
+@mixin enfants($clr){
+    @for $i from 0 to 5{
+        &:nth-child(#{$i}){
+            fill: $clr;
+        }
+    }
+} 
